@@ -1,0 +1,12 @@
+# Area of a circle code
+
+radius = int(input("Please input the radius of the circle: "))
+print("The radius of the circle is ", radius)
+area = 3.141592653 * (radius**2)
+print("The area of the circle is ", area)
+
+# File Extension code
+
+File = {"abc123":"python", "abc124":"C++", "abc125":"C", "abc126":"Java"}
+FileName = input("Enter the File Name: ")
+print(File.get(FileName))
